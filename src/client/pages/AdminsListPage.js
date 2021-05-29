@@ -10,7 +10,7 @@ class AdminsListPage extends Component {
 
   renderAdmins() {
     return this.props.admins.map(admin => {
-      return <li key={admin.id}>{admin.name}</li>;
+      return <li key={admin.id}>{admin.name} hi</li>;
     });
   }
 
